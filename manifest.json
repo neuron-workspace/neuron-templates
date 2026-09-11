@@ -4,6 +4,63 @@
   "ref": "main",
   "templates": [
     {
+      "id": "developer",
+      "name": "Developer workspace",
+      "description": "Architecture notes, API reference, ADRs and implementation notes, with fenced code in a dozen languages.",
+      "version": "1.0.0",
+      "category": "engineering",
+      "tags": [
+        "adr",
+        "architecture",
+        "code"
+      ],
+      "noteCount": 6,
+      "totalBytes": 11803,
+      "source": {
+        "type": "github-raw",
+        "repository": "neuron-workspace/neuron-templates",
+        "ref": "main",
+        "path": "templates/developer",
+        "files": [
+          {
+            "path": "api-reference.md",
+            "size": 2657,
+            "sha256": "c4f590d52a710f100f14542a30ad669d2a85c60c1204f59e8aaec900138f35b5"
+          },
+          {
+            "path": "architecture.md",
+            "size": 2128,
+            "sha256": "bc1298d6d228751ff70fb260e245bc35d8783288e1b92dd68b7045ae62f48bd5"
+          },
+          {
+            "path": "decisions/0001-record-architecture-decisions.md",
+            "size": 1229,
+            "sha256": "d275a511b0e308be1fbb15d5898cc90f8beebaae5c836a421fc9850541a2bc87"
+          },
+          {
+            "path": "decisions/0002-workspace-from-token.md",
+            "size": 1545,
+            "sha256": "7d3ea9acde5783e5b813048461fe459de80ca28165fcf86ad35c251a730a17d8"
+          },
+          {
+            "path": "decisions/0003-idempotent-job-handlers.md",
+            "size": 1889,
+            "sha256": "334da3ea73c71ed52ee2e4afaf289bf7e308a28b4ac39dcd36f949ddf1f94b2d"
+          },
+          {
+            "path": "implementation-notes.md",
+            "size": 2100,
+            "sha256": "09175c7510ed2fa53771fc8628c13b023b129635b0248a93ff6f3458b94db43c"
+          },
+          {
+            "path": "template.json",
+            "size": 255,
+            "sha256": "9068cfa2c6ae5030da8e8a518e6695c5fba2bced9034d383697522263a4a3109"
+          }
+        ]
+      }
+    },
+    {
       "id": "knowledge-base",
       "name": "Personal knowledge base",
       "description": "Interconnected notes with a map of content, real backlinks and enough structure to show what the graph is for.",

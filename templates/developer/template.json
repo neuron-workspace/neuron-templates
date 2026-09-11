@@ -1,0 +1,7 @@
+{
+  "name": "Developer workspace",
+  "description": "Architecture notes, API reference, ADRs and implementation notes, with fenced code in a dozen languages.",
+  "version": "1.0.0",
+  "category": "engineering",
+  "tags": ["adr", "architecture", "code"]
+}
