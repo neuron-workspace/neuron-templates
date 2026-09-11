@@ -1,0 +1,46 @@
+# Plugins and AI
+
+Neuron is extensible. Open **Integrations & Plugins** at the bottom of the sidebar to manage everything.
+
+## What a plugin can do
+
+A plugin can add a side panel, register commands for the palette, or contribute new components. They fall into categories — AI assistants, integrations, and views.
+
+## The three built-in plugins
+
+### Claude Assistant
+
+<Badge type="info" text="ai" />
+
+Chat about the note you have open. Enable it, paste your Anthropic API key in its settings, and it calls Claude through the desktop app. Your key is stored locally and never ships in the app bundle.
+
+### Local Model
+
+<Badge type="info" text="ai" />
+
+The same chat panel pointed at a model on your own machine (Ollama or any OpenAI-compatible endpoint). Your notes never leave the device.
+
+### Daily Notes
+
+<Badge type="info" text="integration" />
+
+Opens or creates a dated journal entry and lists recent ones. A non-AI example of the integration category.
+
+## Turning one on
+
+1. Open **Integrations & Plugins** from the sidebar bottom.
+2. Flip the switch to enable a plugin.
+3. Fill in its settings (API key, or endpoint and model).
+4. Open the right panel — its view appears there.
+
+<Callout type="warning" title="AI needs credentials first">
+The Claude and Local plugins won't respond until you add a key or an endpoint in their settings. The framework is wired; it just needs your details.
+</Callout>
+
+## Commands
+
+Press **Ctrl/Cmd + K** to open the command palette. Every enabled plugin's commands show up there alongside note search — try "Open today's daily note".
+
+Back to the start: [[getting-started]].
+
+#guide #plugins #ai

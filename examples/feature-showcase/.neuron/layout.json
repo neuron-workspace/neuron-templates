@@ -1,0 +1,17 @@
+{
+  "direction": "vertical",
+  "children": [
+    {
+      "size": 72,
+      "panel": {
+        "type": "editor"
+      }
+    },
+    {
+      "size": 28,
+      "panel": {
+        "type": "terminal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Starter",
+  "description": "A handful of linked notes that explain wiki-links, backlinks, tags, folders and search. The smallest useful workspace.",
+  "version": "1.0.0",
+  "category": "general",
+  "tags": ["basics", "onboarding"]
+}

@@ -1,0 +1,264 @@
+{
+  "manifestVersion": 1,
+  "repository": "neuron-workspace/neuron-templates",
+  "ref": "main",
+  "templates": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "description": "A handful of linked notes that explain wiki-links, backlinks, tags, folders and search. The smallest useful workspace.",
+      "version": "1.0.0",
+      "category": "general",
+      "tags": [
+        "basics",
+        "onboarding"
+      ],
+      "noteCount": 7,
+      "totalBytes": 7182,
+      "source": {
+        "type": "github-raw",
+        "repository": "neuron-workspace/neuron-templates",
+        "ref": "main",
+        "path": "templates/starter",
+        "files": [
+          {
+            "path": "Finding things.md",
+            "size": 1054,
+            "sha256": "7786ada2c4b8697483ae35202d4b8d88f0e6e7c22e413bb988bb4c5d147f6d5d"
+          },
+          {
+            "path": "Folders.md",
+            "size": 991,
+            "sha256": "68994b9fa82074739fb8fbc55f2f77cb68252211b252b253fa2c5949aa59f6bd"
+          },
+          {
+            "path": "Linking notes.md",
+            "size": 1316,
+            "sha256": "1ad0c459f06a1c491fa4042d30ad91c4046fd2ba9c5f3d4aab19912f5c9facd6"
+          },
+          {
+            "path": "Start here.md",
+            "size": 882,
+            "sha256": "b38407fe3f48c7277b40267abe6e1ad21f81af2eb22541756bce786a4a402c09"
+          },
+          {
+            "path": "Tags.md",
+            "size": 1131,
+            "sha256": "c1a0e7daecc0efc499fede5edab8fea602cb0f763b3a1dd54182a29a6b5c811e"
+          },
+          {
+            "path": "Writing notes.md",
+            "size": 1012,
+            "sha256": "846a5c73c3497ab9157a7abf466f093223572ba9ed91cf38d7f4adf8fe29ded7"
+          },
+          {
+            "path": "projects/First project.md",
+            "size": 550,
+            "sha256": "01eedce0258b93dc5bbcfc0f374d3600bafeb78f3132dcd8628576d954b8f293"
+          },
+          {
+            "path": "template.json",
+            "size": 246,
+            "sha256": "fa0374f9bbf89b4d929cae4c48bc553cdcb2d1ae3a6f3647ea7ca822323e83a7"
+          }
+        ]
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "feature-showcase",
+      "name": "Feature showcase",
+      "description": "Every Neuron feature in one worked workspace: linked notes, frontmatter, a planner database, a canvas board, MDX dashboards, HTMX views and a sandboxed folder app.",
+      "version": "1.0.0",
+      "category": "example",
+      "tags": [
+        "demo",
+        "reference",
+        "mdx",
+        "canvas",
+        "database"
+      ],
+      "noteCount": 19,
+      "totalBytes": 78053,
+      "source": {
+        "type": "github-raw",
+        "repository": "neuron-workspace/neuron-templates",
+        "ref": "main",
+        "path": "examples/feature-showcase",
+        "files": [
+          {
+            "path": ".neuron/config.json",
+            "size": 88,
+            "sha256": "80c2771187b89ffbadd385d3cf5605342188aba68c1310688b9311e8e6956e86"
+          },
+          {
+            "path": ".neuron/fragments/hello.html",
+            "size": 272,
+            "sha256": "2fce9e81553c3d1a35860a60e7b8dfc0e04e2b268a4c1b480b6026e185a3b1a1"
+          },
+          {
+            "path": ".neuron/fragments/project-note.html",
+            "size": 395,
+            "sha256": "1ae73228e1213733bb567702e9e79275e1a84dfbea8c199abb2eee402a43266a"
+          },
+          {
+            "path": ".neuron/layout.json",
+            "size": 214,
+            "sha256": "d7a4b80cdbbaffac92af70795578568f0bc59a024768599dbd1dfa01a03692a8"
+          },
+          {
+            "path": ".neuron/manifests/Custom dashboard.json",
+            "size": 400,
+            "sha256": "ad9b8a3a0f9ebe688bd7e21296919278ebc1dc201bd9ebf905cdcb5223408ae8"
+          },
+          {
+            "path": ".neuron/templates/dashboard.html",
+            "size": 476,
+            "sha256": "55a1f5c5f3bb8be9670776ad7159c9ecf50af716c566cb65869bb0c20948f2d3"
+          },
+          {
+            "path": ".neuron/templates/file-list.html",
+            "size": 148,
+            "sha256": "e61b9bc5fbed215ad6f0832c2d4734081eed29c72995a2bc2ac33314854cf7db"
+          },
+          {
+            "path": ".neuron/templates/note-browser.html",
+            "size": 419,
+            "sha256": "aafcfbb7a5a3a3bd12608dbb2387877950fd77fa67b8debbd4d856c31ef81e16"
+          },
+          {
+            "path": ".neuron/variables.json",
+            "size": 620,
+            "sha256": "d89d618cd4cffebb127d476023a7f306ae7c1b8fff9780ef13d7e9f7f5dc1741"
+          },
+          {
+            "path": "Custom dashboard.html",
+            "size": 20933,
+            "sha256": "8ed99b684fd2a5af19460a6562a6bce0182bff8ad0f7becf74ae941745d23dcf"
+          },
+          {
+            "path": "Dashboard.mdx",
+            "size": 4780,
+            "sha256": "864870ef337c9f6f8e5e58b27214b4a753eeb632c9a2ef41531f0c2e0cabda9a"
+          },
+          {
+            "path": "Idea board.canvas",
+            "size": 2275,
+            "sha256": "363ead8f9ca682e4ea19eda02c303d046555f2657ec32eaeff055a15edf34c1f"
+          },
+          {
+            "path": "Planner.db",
+            "size": 13185,
+            "sha256": "54531b9bedeb2137d281314c820e1b396cc0627e89a2c214963b160b50813cd6"
+          },
+          {
+            "path": "README.md",
+            "size": 2891,
+            "sha256": "3c76723c042d4318a0216f0f0ad3c107f5585e03bbdfff5f18fcf9b151b1e0c1"
+          },
+          {
+            "path": "Snake/index.html",
+            "size": 10543,
+            "sha256": "0fb863a60d5578d731f72f4d9467a3934f6688609c21b42897fbf94af94106dc"
+          },
+          {
+            "path": "Snake/neuron.app.json",
+            "size": 335,
+            "sha256": "f97fe441cffddee2ee095c3a8a592cba6b8ea84023274c78d1f4659058230c58"
+          },
+          {
+            "path": "daily/2026-06-19.mdx",
+            "size": 1159,
+            "sha256": "d4412d54a2154f64720c498fcde2ad4c041c0a66a3aec59f973d2c594ecb7285"
+          },
+          {
+            "path": "getting-started.mdx",
+            "size": 1350,
+            "sha256": "a6460ca615fcf90ef07863d61f30b5babcf86bdc3e59dd5174536f8e8bb58219"
+          },
+          {
+            "path": "guides/building-htmx-views.mdx",
+            "size": 2889,
+            "sha256": "19b18d66d074bc0bc583032dd56c46d4b2f8fc43e9e4c9ca8826b512fb09769a"
+          },
+          {
+            "path": "guides/markdown-basics.mdx",
+            "size": 3614,
+            "sha256": "25eca7e9dc8b8a63712ef1bcb702c157e8c7d06bb4ceb68ecc7fbdda53fae8c0"
+          },
+          {
+            "path": "guides/mdx-components.mdx",
+            "size": 2082,
+            "sha256": "d2d557879451f0ea7edf71c6848fad1c92b9e20f6e096b84649b3736e21c5c29"
+          },
+          {
+            "path": "guides/plugins-and-ai.mdx",
+            "size": 1639,
+            "sha256": "203228cd2b17553670f2997536d470fb14b73d8060cfe402f8b38e4a4a9e575c"
+          },
+          {
+            "path": "guides/sections-and-workspaces.mdx",
+            "size": 1355,
+            "sha256": "a9e4e2204968600cb30b9ff9d7cdeeb5be8182598c1bec69ddd1fe87af351641"
+          },
+          {
+            "path": "guides/weekly-review.mdx",
+            "size": 977,
+            "sha256": "def47c0af6acaf893ddc93e4c83b1de5b556ddd27bc8344117c6e2174d820de5"
+          },
+          {
+            "path": "guides/wikilinks-and-tags.mdx",
+            "size": 910,
+            "sha256": "681d2c840c291cbdde81ad712f56ef6e619159f62e018cee6c6ff0db946db652"
+          },
+          {
+            "path": "projects/Customer research.mdx",
+            "size": 535,
+            "sha256": "50fe65b900fd2876b708ab4b0bb8e74474d271b6669aad566ec6307b2af32312"
+          },
+          {
+            "path": "projects/Help centre.mdx",
+            "size": 479,
+            "sha256": "609056d3be36a3170951f352a8bfd60b0c7d3ee74adc6d9fd2e6cd4226dc7c66"
+          },
+          {
+            "path": "projects/Mobile app.mdx",
+            "size": 443,
+            "sha256": "cc17d3d5d0fdc8bd7f249be754a2a088aa50ee7ffb2f482f57cb0fb2022bb9e9"
+          },
+          {
+            "path": "projects/Onboarding revamp.mdx",
+            "size": 464,
+            "sha256": "c8a91bbee39a6e83c7b37736b670197f234c482b8a6a014368201c286fd71480"
+          },
+          {
+            "path": "projects/Website refresh.mdx",
+            "size": 496,
+            "sha256": "f6107681231ca09a9b13f14d2d63c0ad15b17c66d6559fc78490beadbf98eacb"
+          },
+          {
+            "path": "properties/basics.md",
+            "size": 253,
+            "sha256": "9064d966a36fc8cd3c0d12f4f4d83e7c4a1345768ee7c47eb16c6bd80d673a8a"
+          },
+          {
+            "path": "properties/invalid-yaml.md",
+            "size": 312,
+            "sha256": "68663ef1b67968cbee08bcdd0b8b4f4d9e4e836dfc216d1e02c252fed445b46d"
+          },
+          {
+            "path": "properties/project-atlas.mdx",
+            "size": 796,
+            "sha256": "73bc68751dcc7f3b90fdfd79fb3aad88e0cc6d86f19e4f6f67cf8e41adafdb31"
+          },
+          {
+            "path": "template.json",
+            "size": 326,
+            "sha256": "59186b15d1dc110501b34b940d2ffab6ebee9489201fd4861c434312b4b16207"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Feature showcase",
+  "description": "Every Neuron feature in one worked workspace: linked notes, frontmatter, a planner database, a canvas board, MDX dashboards, HTMX views and a sandboxed folder app.",
+  "version": "1.0.0",
+  "category": "example",
+  "tags": ["demo", "reference", "mdx", "canvas", "database"]
+}
