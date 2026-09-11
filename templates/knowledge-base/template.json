@@ -1,0 +1,7 @@
+{
+  "name": "Personal knowledge base",
+  "description": "Interconnected notes with a map of content, real backlinks and enough structure to show what the graph is for.",
+  "version": "1.0.0",
+  "category": "knowledge",
+  "tags": ["zettelkasten", "moc", "linking"]
+}

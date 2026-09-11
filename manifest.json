@@ -4,6 +4,63 @@
   "ref": "main",
   "templates": [
     {
+      "id": "knowledge-base",
+      "name": "Personal knowledge base",
+      "description": "Interconnected notes with a map of content, real backlinks and enough structure to show what the graph is for.",
+      "version": "1.0.0",
+      "category": "knowledge",
+      "tags": [
+        "zettelkasten",
+        "moc",
+        "linking"
+      ],
+      "noteCount": 6,
+      "totalBytes": 7716,
+      "source": {
+        "type": "github-raw",
+        "repository": "neuron-workspace/neuron-templates",
+        "ref": "main",
+        "path": "templates/knowledge-base",
+        "files": [
+          {
+            "path": "Atomic notes.md",
+            "size": 1171,
+            "sha256": "da0bf29b9b430fd3074dc0ebd7f340c35c3b4030b4e0ea554a40d0ff22c149e6"
+          },
+          {
+            "path": "How to take a note.md",
+            "size": 1334,
+            "sha256": "1113e012c4804c512499a2260dbfcf390fcda07aada1ca4ad8305c060be051d1"
+          },
+          {
+            "path": "Index.md",
+            "size": 1009,
+            "sha256": "a81e395b62ddfca196dd2f45644c2b2cf28b3f776fed605a341ecc4a415b4660"
+          },
+          {
+            "path": "Linking over filing.md",
+            "size": 1320,
+            "sha256": "ebc8bccbb3808f78de7f6d623a111c9dc4c449db4376265bf51d4e27c6eca519"
+          },
+          {
+            "path": "Maps of content.md",
+            "size": 1206,
+            "sha256": "a9baca78350f6005cdc8bb1b2b96ad5c2409fcb84bb88015a42ab67f3ac1efbc"
+          },
+          {
+            "path": "Working with the graph.md",
+            "size": 1410,
+            "sha256": "db4c61019cf36546e39a43f14c313662e994d8bad91b28e93582b5386897adb8"
+          },
+          {
+            "path": "template.json",
+            "size": 266,
+            "sha256": "766c56fb61e4f53fe9667d3abd920eb646d0ee5151f5eb8f958865f88aaca332"
+          }
+        ]
+      }
+    },
+    {
       "id": "starter",
       "name": "Starter",
       "description": "A handful of linked notes that explain wiki-links, backlinks, tags, folders and search. The smallest useful workspace.",
