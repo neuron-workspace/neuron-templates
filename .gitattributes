@@ -1,0 +1,13 @@
+# LF everywhere, including in Windows working copies.
+#
+# manifest.json carries a sha256 for every file, and a checksum is over bytes.
+# Without this, git hands a Windows author CRLF on checkout, `build-manifest.mjs`
+# hashes those bytes, and the manifest disagrees with the one CI computes on
+# Linux from the same commit -- for every text file at once, with nothing on
+# screen to explain why.
+* text=auto eol=lf
+
+*.png binary
+*.ico binary
+*.icns binary
+*.woff2 binary
